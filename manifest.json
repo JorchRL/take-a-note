@@ -1,0 +1,12 @@
+{
+    "name" : "Take-a-note",
+    "description" : "Frictionless note-taking from internet articles",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background" : {
+        "service_worker" : "./js/background.js"
+    },
+    "permissions" : ["storage", "activeTab", "tabs"],
+    "action" : {}
+
+}
