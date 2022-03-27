@@ -19,6 +19,8 @@ Stack
 - React frontend for browsing and editing saved notes
 - Chrome extension for generating and saving notes
 
+Note. I am researching and considering using Nest.js for my server. And Next.js for the client
+
 Architecture decisions
 
 - All requests from the extension will be sent through the server (login and save note)
